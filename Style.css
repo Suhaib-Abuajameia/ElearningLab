@@ -1,0 +1,10 @@
+header {background-color: gray; color: white; position: sticky; top:0;}
+footer {background-color: gray;text-align: center;}
+header a {text-decoration: none; color: white;} 
+header a:hover {color: yellow; text-decoration: underline; font-size: larger;}
+header a:focus {background-color: yellowgreen;}
+p::selection {background-color: yellow;}
+i,button:hover {cursor: pointer;}
+legend {font-family: 'Dongle', sans-serif;}
+hr {background-image: url(Images/hr-back.png); height: .5em; margin-left: 100px; margin-right: 100px;}
+
