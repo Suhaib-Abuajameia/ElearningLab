@@ -7,6 +7,43 @@
     <title>Sign Up</title>
     <script src="https://kit.fontawesome.com/51c9b0cf27.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Style.css">
+    <script>
+      var takequiz = confirm("do you want to take a short quiz in order to go the courses page?")
+   
+      if (takequiz){
+         var q1 = window.prompt("First question: enter a number between 1 and 100 that is divisible by 3,5,10 and 15.");
+         var q2 = window.prompt("Second question: What element does ‘O’ represent on the periodic table?");
+         var q3 = window.prompt("Third question: what’s the capital of Italy ?");
+         var q4 = window.prompt("Fourth question: How many Continents are there?");
+
+         let score = 0.0;
+         if (q1==="30" || q1==="60" || q1==="90"){
+            score += 1;
+         }
+         if (q2==="Oxygen"){
+            score += 1;
+         }
+         if (q3==="Rome"){
+            score += 1;
+         }
+         if (q4==="7"){
+            score += 1;
+         }
+         if (q4==="6" || q4==="8"){
+            window.alert("So close! The correct answer is: 7");
+            score += 0.5;
+         }
+         if (score>2){
+            window.alert("You Passed The Quiz! your score is: "+score);
+            
+         } else {
+            window.alert("Sorry! you failed");
+         }
+
+      } else {
+         window.alert("OK! No Problem.");
+      }
+    </script>
 </head>
 <body style="margin: 2%;">
    <header>
