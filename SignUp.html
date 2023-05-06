@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/51c9b0cf27.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Style.css">
     <script>
-      var takequiz = confirm("do you want to take a short quiz in order to go the courses page?")
+      var takequiz = confirm("do you want to take a short quiz in order to go to the courses page?")
    
       if (takequiz){
          var q1 = window.prompt("First question: enter a number between 1 and 100 that is divisible by 3,5,10 and 15.");
@@ -33,7 +33,7 @@
             window.alert("So close! The correct answer is: 7");
             score += 0.5;
          }
-         if (score>2){
+         if (score>=2){
             window.alert("You Passed The Quiz! your score is: "+score);
             
          } else {
