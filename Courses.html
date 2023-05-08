@@ -46,31 +46,9 @@
         <i class="fa-brands fa-square-twitter"></i>
     </footer> 
     <script>
-        var rate = window.prompt("Rate our website from 1 to 5")
-        if(rate==="1"){
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-        }
-        if(rate==="2"){
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-        }
-        if(rate==="3"){
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-        }
-        if(rate==="4"){
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-        }
-        if(rate==="5"){
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
-            document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");
+         var x=parseInt(prompt("Rate our website from 1 to 5"));
+        for (let index = 0; index < x ; index++) {
+           document.write("<img src='Images/download.png' alt='' width='50px' height='50px'>");   
         }
     </script>
     
